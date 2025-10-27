@@ -6,7 +6,7 @@
     <header>
     <nav>
         <router-link to="/login">Login</router-link>
-        <router-link to="/register" class="selected">Register</router-link>
+        <router-link to="/register">Register</router-link>
     </nav>
     </header>
     <main>
@@ -53,7 +53,7 @@ header {
             font-weight: 400;
             color: white;
         }
-        & .selected {
+        & a.router-link-exact-active {
             background-color: white;
             border-radius: 200px;
             color: #446692;

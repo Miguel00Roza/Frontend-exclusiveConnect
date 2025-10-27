@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 // 1. Importe os componentes que serão suas "páginas"
 import registerPage from '../views/registerPage.vue';
 import loginPage from '../views/loginPage.vue';
+import indexPage from '../views/indexPage.vue';
 
 // 2. Defina suas rotas em um array
 // Cada rota é um objeto que mapeia um caminho (path) a um componente
@@ -16,13 +17,18 @@ const routes = [
     path: '/login',
     name: 'login',
     component: loginPage
+  },
+  {
+    path: '/main',
+    name: 'main',
+    component: indexPage
   }
 ];
 
 // 3. Crie a instância do roteador
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes, // Abreviação para routes: routes
+  routes,
 });
 
 // 4. Exporte o roteador
