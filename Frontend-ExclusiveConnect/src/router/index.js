@@ -5,6 +5,7 @@ import registerPage from '../views/registerPage.vue';
 import loginPage from '../views/loginPage.vue';
 import indexPage from '../views/indexPage.vue';
 import ledPage from '../views/ledPage.vue';
+import devPage from '../views/devPage.vue';
 
 // 2. Defina suas rotas em um array
 // Cada rota é um objeto que mapeia um caminho (path) a um componente
@@ -28,6 +29,11 @@ const routes = [
     path: '/ledControl',
     name: 'ledControl',
     component: ledPage
+  },
+  {
+    path: '/',
+    name: 'devPage',
+    component: devPage
   }
 ];
 
