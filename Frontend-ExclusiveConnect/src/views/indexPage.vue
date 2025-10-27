@@ -60,7 +60,7 @@
 <style scoped>
 /*-----detalhes----*/
 .details {
-    margin: 20px;
+    margin: 10px;
     padding: 20px;
     box-shadow: 8px 8px 11px rgba(0, 0, 0, 0.25);
     border-radius: 25px;
@@ -111,7 +111,7 @@
         gap: 20px;
         justify-content: center;
         & li .menu-link{
-            width: 35vw;
+            width: 33vw;
             height: 35vw;
             display: flex;
             flex-direction: column;

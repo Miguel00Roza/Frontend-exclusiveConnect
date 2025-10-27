@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "vue": "^3.5.22",
+    "vue-color-kit": "^1.0.6",
     "vue-router": "^4.6.3"
   },
   "devDependencies": {
