@@ -40,7 +40,7 @@
                 </router-link>
             </li>
             <li>
-                <router-link class="menu-link">
+                <router-link to="/heaterControl" class="menu-link">
                 <img src="@/assets/images/ondas-de-agua.png" alt="ondas">
                 <h2>Aquecimento</h2>
                 </router-link>

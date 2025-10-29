@@ -33,7 +33,7 @@ let isOn = ref(false);
             <button @click="selectedColor = '#0000ff'" style="background-color: blue;"></button>
           </div>
           <div>
-            <button @click="selectedColor = '#fff'" style="background-color: #fff; border: solid 1px;"></button>
+            <button @click="selectedColor = '#fff'" style="background-color: #fff; border: solid 1px #000;"></button>
           </div>
         </div>
         <button class="onOff" @click="isOn = !isOn" :class="isOn ? 'on' : 'off'">{{ isOn ? "ON" : "OFF" }}</button>
@@ -58,13 +58,13 @@ let isOn = ref(false);
 /*-------box-----*/
 .box {
   background-color: F4F4F4;
-  box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.25);
+  box-shadow: $shadow-card;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 30px;
-
+  border-radius: 25px;
   & h1 {
     margin-top: 10px;
     font-size: $title-size;
