@@ -28,7 +28,7 @@ watch(colorProp, (newVal) => {
 })
 
 // --- debouncedRef: só depois do debounce emitimos para o pai ---
-const debouncedColor = useDebounce(internalColor, 150) // ajuste o ms se quiser
+const debouncedColor = useDebounce(internalColor, 0) // ajuste o ms se quiser
 
 watch(debouncedColor, (val) => {
   if (val !== undefined) emit('update:color', val)

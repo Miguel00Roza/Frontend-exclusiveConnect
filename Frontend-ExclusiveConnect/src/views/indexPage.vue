@@ -34,7 +34,7 @@
     <div class="cards">
         <ul>
             <li>
-                <router-link class="menu-link">
+                <router-link to="/ledControl" class="menu-link">
                 <img src="@/assets/images/luz-led.png" alt="luzled">
                 <h2>Led</h2>
                 </router-link>

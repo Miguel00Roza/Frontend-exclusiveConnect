@@ -116,4 +116,9 @@ let isOn = ref(false);
     color: white;
   }
 }
+@media only screen and (min-width: 900px) {
+  .container {
+    padding: 5vw;
+  }
+}
 </style>
