@@ -16,7 +16,7 @@ let inicialUsuario = nomeUsuario[0];
             <p>Olá, {{ nomeUsuario }}</p>
         </div>
         <div class="user">
-            <router-link to="/profilePage">{{ inicialUsuario }}</router-link>
+            <router-link to="/profile">{{ inicialUsuario }}</router-link>
         </div>
     </nav>
 </template>

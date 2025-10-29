@@ -8,6 +8,7 @@ import ledPage from '../views/ledPage.vue';
 import devPage from '../views/devPage.vue';
 import heaterPage from '../views/heaterPage.vue';
 import profilePage from '../views/profilePage.vue';
+import settingsPage from '../views/settingsPage.vue';
 
 // Routes
 const routes = [
@@ -42,9 +43,14 @@ const routes = [
     component: heaterPage
   },
   {
-    path: '/profilePage',
+    path: '/profile',
     name: 'profilePage',
     component: profilePage
+  },
+  {
+    path: '/settings',
+    name: 'settingsPage',
+    component: settingsPage
   }
 ];
 

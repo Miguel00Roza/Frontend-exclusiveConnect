@@ -90,7 +90,7 @@ let created_at = "2025-11-12"
     & .about {
         text-align: center;
         margin-top: 10px;
-        background-color: #F6F6F6;
+        background-color: $off-white;
         padding: 10px;
         border-radius: 20px;
     }
