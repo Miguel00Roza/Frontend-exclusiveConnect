@@ -7,6 +7,7 @@ import indexPage from '../views/indexPage.vue';
 import ledPage from '../views/ledPage.vue';
 import devPage from '../views/devPage.vue';
 import heaterPage from '../views/heaterPage.vue';
+import profilePage from '../views/profilePage.vue';
 
 // Routes
 const routes = [
@@ -40,6 +41,11 @@ const routes = [
     name: 'heaterControl',
     component: heaterPage
   },
+  {
+    path: '/profilePage',
+    name: 'profilePage',
+    component: profilePage
+  }
 ];
 
 // 3. Crie a instância do roteador

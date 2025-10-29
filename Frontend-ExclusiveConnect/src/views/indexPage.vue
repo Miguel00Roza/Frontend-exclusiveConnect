@@ -6,7 +6,7 @@
 </script>
 <template>
     <div class="contents">
-    <navPages />
+    <navPages :hello=true />
     <main>
     <div class="details">
         <h1>Detalhes gerais</h1>
