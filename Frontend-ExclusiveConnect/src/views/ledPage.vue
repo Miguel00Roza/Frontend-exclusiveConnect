@@ -52,7 +52,7 @@ let isOn = ref(false);
 
 .container {
   flex-grow: 1;
-  padding: 1vw 5vw;
+  padding: 2vw 5vw;
 }
 
 /*-------box-----*/
