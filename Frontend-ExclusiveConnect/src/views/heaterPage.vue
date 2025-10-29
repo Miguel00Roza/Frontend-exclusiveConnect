@@ -10,8 +10,8 @@ let unidadeTemp = "°C";
 
 // --- ADICIONADO ---
 // Define as cores de início e fim do seu gradiente
-const startColor = { r: 9, g: 140, b: 234 }; // Azul (#098CEA)
-const endColor = { r: 239, g: 0, b: 0 };     // Vermelho (#EF0000)
+const startColor = { r: 0, g: 0, b: 255 }; // Azul (#098CEA)
+const endColor = { r: 255, g: 0, b: 0 };     // Vermelho (#EF0000)
 const minTemp = 12;
 const maxTemp = 40;
 
