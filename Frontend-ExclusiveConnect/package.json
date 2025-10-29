@@ -14,8 +14,12 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@jaames/iro": "^5.5.2",
+    "@melloware/coloris": "^0.25.0",
+    "@vueuse/core": "^14.0.0",
+    "coloris": "^0.1.0",
     "vue": "^3.5.22",
-    "vue-color-kit": "^1.0.6",
+    "vue-color-wheel": "^0.1.1",
     "vue-router": "^4.6.3"
   },
   "devDependencies": {
@@ -26,6 +30,7 @@
     "eslint-plugin-vue": "~10.5.0",
     "globals": "^16.4.0",
     "prettier": "3.6.2",
+    "sass": "^1.93.2",
     "vite": "^7.1.11",
     "vite-plugin-vue-devtools": "^8.0.3"
   }
